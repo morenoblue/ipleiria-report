@@ -63,6 +63,9 @@
 \colorlet{darkred}{red!50!black}
 \definecolor{frontpagedark}{HTML}{1c1c1c}
 
+% Provide pdfTeX compatibility for LuaTeX
+\RequirePackage{luatex85} 
+
 % Margins
 \usepackage[
 	top=2.5cm, % Top margin
